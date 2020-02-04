@@ -38,3 +38,13 @@ export const maxSubArrayDP = (nums: number[]): number => {
     }
     return max;
 }
+
+// const helper = (left: number, right: number, total: number[]): number => {
+//     if (right - left === 0) {
+//         return total[left];
+//     }
+//     const middle = Math.floor((left + right) / 2);
+//     const leftSum = sum(total.slice(left, middle));
+//     const rightSum = sum(total.slice(middle + 1, right));
+//     const crossSum = sum(total.slice(left, right));
+// }
