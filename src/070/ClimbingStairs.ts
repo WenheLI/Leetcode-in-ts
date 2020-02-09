@@ -13,7 +13,7 @@ function climbHelper(n: number): number {
     }
 }
 
-// DP
+// DP O(n)
 function climbHelperDP(n: number, table: number[]): number {
     if (n == 1 || n == 0) {
         return 1;
